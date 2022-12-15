@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: lsi
+Label: lsi
+Architecture: amd64
+Description: Apt repository for lsi packages

@@ -1,0 +1,668 @@
+Package: gpib-modules-source
+Source: gpib
+Version: 4.3.5-lsi4
+Architecture: all
+Maintainer: Gudjon I. Gudjonsson <gudjon@gudjon.org>
+Installed-Size: 307
+Depends: bzip2
+Recommends: module-assistant
+Suggests: kernel-package
+Priority: optional
+Section: science
+Filename: pool/main/g/gpib/gpib-modules-source_4.3.5-lsi4_all.deb
+Size: 307208
+SHA256: 71c541f53e1632ba14a81d45c8e4a9d66b5c7e1a87ba985480fbd61bd6a3bbdb
+SHA1: d00065228214e01eb9b5bca4c6a0ae445aa91649
+MD5sum: 0b7b9eff954cbf0f43a65e12eb492346
+Description: kernel modules for various GPIB boards
+ .
+ This package contains the source for the kernel modules for various
+ GPIB boards.
+
+Package: libgpib-doc
+Source: gpib
+Version: 4.3.5-lsi4
+Architecture: all
+Maintainer: Gudjon I. Gudjonsson <gudjon@gudjon.org>
+Installed-Size: 171
+Recommends: w3m | www-browser
+Priority: optional
+Section: doc
+Filename: pool/main/g/gpib/libgpib-doc_4.3.5-lsi4_all.deb
+Size: 132252
+SHA256: a8cca0f33b156fc3578eefc639be88f9a3dfb17e291f836f49964c7348931539
+SHA1: 137d2c1b780e8964189d1e19bd82dfea0817bbaa
+MD5sum: 0277dc931c974537697c8d2e4c8b2f1c
+Description: Documentation for the linux-gpib library
+ .
+ This package contains the documentation and examples for the
+ linux-gpib library.
+
+Package: libyangrpc-dev
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 16
+Depends: libc6-dev, libyangrpc2 (= 2.13-0), libyuma2 (= 2.13-0)
+Provides: libyangrpc-dev
+Multi-Arch: same
+Homepage: https://yuma123.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/y/yuma123/libyangrpc-dev_2.13-0_amd64.deb
+Size: 2348
+SHA256: a5985946165ac86f53a2fa4e812ebcde3e6c4f8960aa48c02a1c5f46fe11a11f
+SHA1: 631823e8ffd9f02000f8b23fb2ac6b8eada5f9df
+MD5sum: 703b4c70fc795b7909451ecebf5fc59f
+Description: NETCONF/YANG simple client applications development files
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 libyangrpc development files include the library headers, static
+ libraries, and documentation needed for development of custom NETCONF/YANG
+ applications.
+
+Package: libyangrpc2
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 213
+Depends: libc6 (>= 2.15), libreadline8 (>= 6.0), libyuma2 (= 2.13-0), libyuma-base
+Multi-Arch: same
+Homepage: https://yuma123.org
+Priority: optional
+Section: libs
+Filename: pool/main/y/yuma123/libyangrpc2_2.13-0_amd64.deb
+Size: 74624
+SHA256: 6606c5b012fed374e1b84d3279c59b3f420253732f6e07cca5c6981753a45b45
+SHA1: 46a83451220ea0c9afa37cb47e69b13e0f35121c
+MD5sum: e142a5beefb653f16aef59709ad3d4a3
+Description: NETCONF/YANG library for simple client applications
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 yangrpc library contains common functions for the construction,
+ sending, receiving, decoding, and manipulation of the NETCONF requests
+ and responses used on simple manager clients.
+
+Package: libyangrpc2-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 381
+Depends: libyangrpc2 (= 2.13-0)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/libyangrpc2-dbgsym_2.13-0_amd64.deb
+Size: 337556
+SHA256: 16dc28766f48b0461ccfa78a69128abbfeecb9eb335616eb81fe91a8aa2cf3c7
+SHA1: 3dfe33fb825da9a4f812a746758e97f17e77b755
+MD5sum: de731dd66ee77869d6af58a4fbd5f624
+Description: debug symbols for libyangrpc2
+Build-Ids: c1ec8b89cfffae75b9813a69b75e6c8afa20b5d5
+
+Package: libyuma-base
+Source: yuma123
+Version: 2.13-0
+Architecture: all
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 1307
+Multi-Arch: foreign
+Homepage: https://yuma123.org
+Priority: optional
+Section: libs
+Filename: pool/main/y/yuma123/libyuma-base_2.13-0_all.deb
+Size: 164688
+SHA256: c137b58fdd368b4643963242c53388bf3e3cb2d8d62c2df80a3697283dd875ba
+SHA1: 5d9e1fe59999a2968b1866b69c55f0da654b16cc
+MD5sum: 76f363bcde5a30c9a0776e080203f5b6
+Description: Configuration script, YANG modules and documentation
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ This package includes configuration scripts, documentation and YANG
+ modules for the NETCONF an YANG libraries, agents and
+ applications. YANG modules contain a formal description of the data that can be
+ managed using NETCONF and applications.
+
+Package: libyuma-dev
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 1491
+Depends: libyuma2 (= 2.13-0)
+Provides: libyuma-dev
+Multi-Arch: same
+Homepage: https://yuma123.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/y/yuma123/libyuma-dev_2.13-0_amd64.deb
+Size: 176996
+SHA256: 5dfab9f7d976e512d55816895c2cef7cb923014adeba7c834620c91675718e3e
+SHA1: 6a98264e9e48f24ae1312d2bc82a72c8f35054d7
+MD5sum: 8d24d470acba013269df10a8db100d4e
+Description: NETCONF/YANG application development files
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 libyuma development files include the library headers, static
+ libraries, and documentation needed for development of custom NETCONF/YANG
+ applications.
+
+Package: libyuma2
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 1288
+Depends: libc6 (>= 2.22), libssh2-1 (>= 1.2.3), libssl1.1 (>= 1.1.0), libxml2 (>= 2.7.4), libyuma-base
+Multi-Arch: same
+Homepage: https://yuma123.org
+Priority: optional
+Section: libs
+Filename: pool/main/y/yuma123/libyuma2_2.13-0_amd64.deb
+Size: 452560
+SHA256: f0ac5f51a4bf72008acc940959860eb4fdaf34011ca81d4e2bc183892d8e911f
+SHA1: 7e2a9501b0335d195c6832944e1874315b1025fe
+MD5sum: 739dfe407c926bf81f945504981d6cab
+Description: NETCONF/YANG library
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 libyuma library contains common functions for the construction,
+ sending, receiving, decoding, and manipulation of the NETCONF requests
+ and responses.
+
+Package: libyuma2-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 1990
+Depends: libyuma2 (= 2.13-0)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/libyuma2-dbgsym_2.13-0_amd64.deb
+Size: 1810940
+SHA256: 749a3f09b846dcd7b895c1449222a85d7f353569e9214499c6ec37e78c42e33b
+SHA1: 450fba32c450990b4167b1f5111c32f4d26020d4
+MD5sum: 4228d5e218d1888547b29b018023c91d
+Description: debug symbols for libyuma2
+Build-Ids: 092e2bcb9f69bf9b29be784fd78b16f611be0776 3562ebab2a8d4e1429c15ccaddbf3bff5fceb944 627f216f5a09194c247521aa1d5fc92d384dec78
+
+Package: netconfd
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 87
+Depends: libc6 (>= 2.15), libyuma2 (= 2.13-0), adduser, debconf, lsb-base, libyuma-base
+Homepage: https://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123/netconfd_2.13-0_amd64.deb
+Size: 19052
+SHA256: 223687d8d04836610f1bd495b761afde8dca22eedd15d4956425c5fd7b520a1f
+SHA1: d0db6b21bcfc95593bda573c4b97ac1ef1288c52
+MD5sum: 51a9f8da48991d3f8177c8a4cb47247f
+Description: NETCONF (RFC6241) agent
+ NETCONF provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 agent is a daemon which listens for incoming NETCONF
+ requests from clients and provides responses.
+
+Package: netconfd-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 111
+Depends: netconfd (= 2.13-0)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/netconfd-dbgsym_2.13-0_amd64.deb
+Size: 77928
+SHA256: b6de8fdab8c497dddea1cf5c1225bea85ca20302a31e327a0f8fd1763cfda915
+SHA1: 91da1fad5a6eaed250b1d758c9b21e462c0a4dee
+MD5sum: bc2f23ba692de718712c388e0eb72b7c
+Description: debug symbols for netconfd
+Build-Ids: 068e0ebd2247736d40f424ade2acdadd6f37967a 54ceedd30f38b6b384b23b94e0e3feaeb372e727 764800f8dbd7f9ef6ffc00295d62bd741fc7de9e fa3ef2745f244309001e5e5aba363a34cfb50d44
+
+Package: netconfd-module-ietf-interfaces
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 38
+Depends: libc6 (>= 2.4), libyuma2 (= 2.13-0), debconf, lsb-base
+Multi-Arch: same
+Homepage: https://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123/netconfd-module-ietf-interfaces_2.13-0_amd64.deb
+Size: 8308
+SHA256: 21ecfe50d343f3dba2f78c110baf44d4c38ba1677f4fc812df38984de1280c17
+SHA1: 6fd7b226aa34ea22f41493a3245cb73148140a7d
+MD5sum: 4a00f2ce0987249e432bafce280e0dc9
+Description: SIL module for netconfd implementing ietf-interfaces.yang
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 netconfd module ietf-interfaces implements the functionality
+ modeled in ietf-interfaces.yang using some common command line tools.
+
+Package: netconfd-module-ietf-interfaces-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 49
+Depends: netconfd-module-ietf-interfaces (= 2.13-0)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/netconfd-module-ietf-interfaces-dbgsym_2.13-0_amd64.deb
+Size: 34484
+SHA256: 234444aeb64e18454a7a07b8b1bd649a04d0c327339fa2803bf19ecb0f2043d4
+SHA1: 274e51201fa41a1d803f8fbc02c09103b2a129b0
+MD5sum: 48cc7a48d3ff19001c8f6e2cec5e7961
+Description: debug symbols for netconfd-module-ietf-interfaces
+Build-Ids: c34a782a1c4ac799b3284be3212dbf4cf2d6651e
+
+Package: netconfd-module-ietf-system
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 26
+Depends: libc6 (>= 2.17), libyuma2 (= 2.13-0), debconf, lsb-base
+Multi-Arch: same
+Homepage: https://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123/netconfd-module-ietf-system_2.13-0_amd64.deb
+Size: 4768
+SHA256: 5ad24ea16c91a4bafb68d52c5ff1c2fcbe208ddaa414a57b6c9f3646f8b04010
+SHA1: 43fb1ffb35bc4740b3b798970e6387c05af206d1
+MD5sum: e4e78d98f7ba75bf1f4704ba11206686
+Description: SIL module for netconfd implementing ietf-system.yang
+ The NETCONF protocol and YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 netconfd module ietf-interfaces implements the functionality
+ modeled in ietf-system.yang using some common command line tools.
+
+Package: netconfd-module-ietf-system-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 40
+Depends: netconfd-module-ietf-system (= 2.13-0)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/netconfd-module-ietf-system-dbgsym_2.13-0_amd64.deb
+Size: 26520
+SHA256: 516879020b4adab52860201ca5c4259d3a1d98201e2c6ddcbc99e710efb4b0e0
+SHA1: 1e89a2a395fac4604f0bf543adf6e7e65df6d88f
+MD5sum: c9960dfb92740bdef36d95f8c34317a2
+Description: debug symbols for netconfd-module-ietf-system
+Build-Ids: af0b47afd31d72541c4a3145f988350343973bb4
+
+Package: netconfd-module-ietf-traffic-analyzer
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 39
+Depends: libc6 (>= 2.4), libyuma2 (>= 2.13), debconf, lsb-base (>= 3.2-13), traffic-generator-cli
+Homepage: https://lightside-instruments.com
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/netconfd-module-ietf-traffic-analyzer_2.13-0.1_amd64.deb
+Size: 6944
+SHA256: f9efd16a0a8bc277d5037952031a0005fc60a1442c30330d7a7e719315edf1fc
+SHA1: 75c4fbc8aa5e7ef86385a52e18317a332912824a
+MD5sum: af06a586ce98e61e131385ebed51c5f8
+Description: SIL module for netconfd implementing ietf-traffic-analyzer.yang
+ .
+ Implements the functionality modeled in ietf-traffic-analyzer.yang using
+ the available traffic-analyzer CLI tool.
+
+Package: netconfd-module-ietf-traffic-analyzer-dbgsym
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 43
+Depends: netconfd-module-ietf-traffic-analyzer (= 2.13-0.1)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/netconfd-module-ietf-traffic-analyzer-dbgsym_2.13-0.1_amd64.deb
+Size: 28140
+SHA256: 962b28f611bf510d36cb18af0d2d78216d5b04ae211aaa576262ccb1fa8b2e7b
+SHA1: 939a737dfc96b909065b04f53d4d9c96ebf79f17
+MD5sum: e1fc521e17f474809d75582d0118984b
+Description: debug symbols for netconfd-module-ietf-traffic-analyzer
+Build-Ids: 4be2c2dba1ecca2d909600b3559b656dd2bfb443
+
+Package: netconfd-module-ietf-traffic-generator
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 31
+Depends: libc6 (>= 2.4), libyuma2 (>= 2.13), debconf, lsb-base (>= 3.2-13), traffic-generator-cli
+Homepage: https://lightside-instruments.com
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/netconfd-module-ietf-traffic-generator_2.13-0.1_amd64.deb
+Size: 5708
+SHA256: e6d432d074cdea13c53652e01a76231777a85784992e2263ac01b39f602b09e0
+SHA1: 65918f086243ce90d31bf4b03b351a2a315510cb
+MD5sum: dff69146cc9191320272caa8d82a954b
+Description: SIL module for netconfd implementing ietf-traffic-generator.yang
+ .
+ Implements the functionality modeled in ietf-traffic-generator.yang using
+ the available traffic-generator CLI tool.
+
+Package: netconfd-module-ietf-traffic-generator-dbgsym
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 37
+Depends: netconfd-module-ietf-traffic-generator (= 2.13-0.1)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/netconfd-module-ietf-traffic-generator-dbgsym_2.13-0.1_amd64.deb
+Size: 23560
+SHA256: fd7d4b69eecab02d35c28c6d82db5c86bf7dde07b3837244d6e9ce8f65ebbefc
+SHA1: a2bcd4f7bb361fef6d4c975222fe354b0ce50a4c
+MD5sum: 3898b8675fe7f4592979afad44c964a1
+Description: debug symbols for netconfd-module-ietf-traffic-generator
+Build-Ids: 372746beede8c33e9e602205c76b4d00a2bc3b7b
+
+Package: python3-litenc
+Source: litenc
+Version: 1.7-0
+Architecture: all
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 30
+Depends: python3:any, python3-paramiko, python3-lxml
+Homepage: https://github.com/lightside-instruments/litenc/
+Priority: optional
+Section: python
+Filename: pool/main/l/litenc/python3-litenc_1.7-0_all.deb
+Size: 6024
+SHA256: ee75a216db5e46585dec524fc67723f6f9697002f1136caa95e578feeb6b52b8
+SHA1: b034205a15a425c854157f66d3231b85b05e3105
+MD5sum: 5d6dec46c60da175a11e06bdea90e4a3
+Description: Python library for NETCONF clients
+ litenc is a Python library that facilitates client-side scripting
+ and application development around the NETCONF protocol.
+ .
+ NETCONF (Network Configuration Protocol) provides mechanisms to install,
+ manipulate, and delete the configuration of network devices. Its operations
+ are realized on top of a simple remote procedure call (RPC) layer.
+ .
+ The NETCONF protocol uses an Extensible Markup Language (XML) based data
+ encoding for the configuration data as well as the protocol messages.
+
+Package: python3-tntapi
+Source: tntapi
+Version: 1.7-0
+Architecture: all
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 70
+Depends: python3:any, python3-litenc, python3-lxml, python3-yuma (>= 2.13)
+Homepage: https://github.com/lightside-instruments/litenc/
+Priority: optional
+Section: python
+Filename: pool/main/t/tntapi/python3-tntapi_1.7-0_all.deb
+Size: 14144
+SHA256: 4c003d59b011d7bf48c80c3ce9ebb708b24faa4f377f30bf791ad8da3b818ce0
+SHA1: 4270deebc5ce379794e6f8a432492809de922bb6
+MD5sum: 4914715606e6e8c3ba772650fd2667c1
+Description: Python library providing simple application programming
+ interface for development of transactional network tools for
+ management of elements with model defined NETCONF/YANG interfaces.
+
+Package: rfc2544-benchmark
+Version: 1.7-0.1
+Architecture: all
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 30
+Depends: python3, python3-libxml2, python3-lxml, python3-litenc, python3-tntapi, python3-yuma (>= 2.13), traffic-generator-make-testframe
+Homepage: https://github.com/lightside-instruments/litenc/
+Priority: optional
+Section: python
+Filename: pool/main/r/rfc2544-benchmark/rfc2544-benchmark_1.7-0.1_all.deb
+Size: 6348
+SHA256: 3100c8b5a28c6b803cfe16c0edc35e132fb889a36b5febc19bb236d4904b1c29
+SHA1: e3dda229f0d345ed612aad06132176cb22ed9808
+MD5sum: 5fe49cd54334d5d4b905e6e434489b1c
+Description: RFC254 benchmark implemented as python script based on the IETF
+ BMWG draft draft-ietf-bmwg-network-tester-cfg YANG models and the tntapi
+ NETCONF/YANG test automation interface
+
+Package: traffic-analyzer-cli-rawsocket
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 25
+Depends: libc6 (>= 2.17), debconf, lsb-base (>= 3.2-13)
+Provides: traffic-analyzer-cli
+Homepage: https://lightside-instruments.com
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/traffic-analyzer-cli-rawsocket_2.13-0.1_amd64.deb
+Size: 6044
+SHA256: 1d3a52faa6f6208ae30a026e2197414aee807008e2691fa2c36a210cfd2ad87d
+SHA1: 2d1c95dfdc664bf6481e4513598cf5be84975b0c
+MD5sum: 5f0db12dd0da95007be9c6efb23cf989
+Description: CLI tools starting and monitoring traffic analyzer on local network interface.
+ .
+ This package contains a rawsocket implementation of the traffic-analyzer-cli interface. It is not as deterministic
+ as alternative hardware based implementations. It also serves as a template and is universally supported
+ on all Linux machines with generic interfaces supporting SOCK_RAW.
+
+Package: traffic-analyzer-cli-rawsocket-dbgsym
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 27
+Depends: traffic-analyzer-cli-rawsocket (= 2.13-0.1)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/traffic-analyzer-cli-rawsocket-dbgsym_2.13-0.1_amd64.deb
+Size: 12368
+SHA256: 00b7fc8f2687a14995f4ee5a7ead5594a600235a5955e1d66cc9504c5e89565a
+SHA1: 4631676a2abf2470c994b132bf90e88953661900
+MD5sum: f375b1fa091a5cf4b32932d32e82ebe1
+Description: debug symbols for traffic-analyzer-cli-rawsocket
+Build-Ids: 2421cad2411bda19d6fb4b4a4d5f944593f217ef
+
+Package: traffic-generator-cli-rawsocket
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.17), zlib1g (>= 1:1.1.4), debconf, lsb-base (>= 3.2-13), traffic-generator-make-testframe
+Provides: traffic-generator-cli
+Homepage: https://lightside-instruments.com
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/traffic-generator-cli-rawsocket_2.13-0.1_amd64.deb
+Size: 8516
+SHA256: ee12fd08152f3a14f1d93dbb30b80fedd50f6051f02edb6ced634308f44ffda1
+SHA1: 5137b2429a99182eb99d09dec2ecae6675191915
+MD5sum: 1f4931ce7dfaa1386f19c27eecd6f6d8
+Description: CLI tools starting traffic generator stream and a traffic analyzer on local network interface.
+ .
+ This package contains a rawsocket implementation of the traffic-generator-cli interface. It is not as deterministic
+ as alternative hardware based implementations. It also serves as a template and is universally supported
+ on all Linux machines with generic interfaces supporting SOCK_RAW.
+
+Package: traffic-generator-cli-rawsocket-dbgsym
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 36
+Depends: traffic-generator-cli-rawsocket (= 2.13-0.1)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/traffic-generator-cli-rawsocket-dbgsym_2.13-0.1_amd64.deb
+Size: 20388
+SHA256: 3f9bfcf69c89a62334de1a66b450784d4ecfc4db84a81981b4f2327f264491f2
+SHA1: 908ee7c640acd9f4880eb8d94e86c8a09231476c
+MD5sum: ea2955c46503dc73e1def2c8ac08aa3d
+Description: debug symbols for traffic-generator-cli-rawsocket
+Build-Ids: ec2cc6fabffd1adeaa646215c4292e36dd8f91fd
+
+Package: traffic-generator-make-testframe
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Homepage: https://lightside-instruments.com
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/traffic-generator-make-testframe_2.13-0.1_amd64.deb
+Size: 6960
+SHA256: 7e4fd25a74f24c7a63dc5d4fdd0ffd70c65db09c58b6847b23b91a9a99dd935e
+SHA1: 3a84ed6897e119d60f8d6a60e63ff13c81261317
+MD5sum: 7917c196daec1efa7955779d8e2059d4
+Description: CLI tools printing the hexadecimal data of a traffic generator testframe according to parameters.
+
+Package: traffic-generator-make-testframe-dbgsym
+Source: yuma123-netconfd-module-ietf-traffic-generator
+Version: 2.13-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 29
+Depends: traffic-generator-make-testframe (= 2.13-0.1)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123-netconfd-module-ietf-traffic-generator/traffic-generator-make-testframe-dbgsym_2.13-0.1_amd64.deb
+Size: 14516
+SHA256: 0955aa4d9e5a621b2ec5e7b041306bde32558c4fe449d19091d3890988ed1e7c
+SHA1: 842fc748f8bd8a858f3f1351010477c43640fe67
+MD5sum: 85223fdefba381c467f9a8d28a744703
+Description: debug symbols for traffic-generator-make-testframe
+Build-Ids: 8c6ff9e494dc29d3401c0c0d3073e013bc38d329
+
+Package: yangcli
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 205
+Depends: libc6 (>= 2.15), libreadline8 (>= 6.0), libyuma2 (= 2.13-0), libyuma-base
+Homepage: https://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123/yangcli_2.13-0_amd64.deb
+Size: 80484
+SHA256: 25549494f72590f85f39c9366165b62839ac2c810eea446a557236b78aeb3cc6
+SHA1: 471f26dceca7f3be5f028dfba7969a1a41e0364c
+MD5sum: aeca00ce66860e3a3c898ec39551d61b
+Description: NETCONF/YANG command line client application
+ The NETCONF protocol and the YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yuma123 yangcli application allows the user to issue NETCONF requests
+ to agents according to the specific YANG modules of the agents.
+
+Package: yangcli-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 367
+Depends: yangcli (= 2.13-0)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/yangcli-dbgsym_2.13-0_amd64.deb
+Size: 324904
+SHA256: 590163855d2ce039f6bde0bf6112dacb970980afcf4786b035e0125895306160
+SHA1: c319b9e2f554c2d759b28bc0e7877d07215e35ec
+MD5sum: 9bf55c173e9923859785690edda9d4fb
+Description: debug symbols for yangcli
+Build-Ids: 2ec22c496b3dfb3756aacaefed96fbab0a97c20a
+
+Package: yangdump
+Source: yuma123
+Version: 2.13-0
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 233
+Depends: libc6 (>= 2.4), libyuma2 (= 2.13-0), libyuma-base
+Homepage: https://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123/yangdump_2.13-0_amd64.deb
+Size: 89100
+SHA256: 532c549dd1cc07f6b4aaf81c0714b2c284cd0c6d74aaea501f719dbb1e92df12
+SHA1: 669c7eb8ce908e88f6d16395a71185edabe52bb3
+MD5sum: 10d2197a2b48a444a868cdbfcca199b4
+Description: Validate YANG modules and convert them to different formats
+ The NETCONF protocol and the YANG modeling language provide a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The yangdump application allows the user to validate YANG modules
+ and convert YANG to different formats.
+
+Package: yangdump-dbgsym
+Source: yuma123
+Version: 2.13-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 419
+Depends: yangdump (= 2.13-0)
+Priority: optional
+Section: debug
+Filename: pool/main/y/yuma123/yangdump-dbgsym_2.13-0_amd64.deb
+Size: 382184
+SHA256: 029c7cc76c15928db5fcae05d52e462398d70edf756c7a77d8a3044443b26a37
+SHA1: dcbd10d1ca222f7d8c68f21dbd2dbf9d13b94b1c
+MD5sum: 4395ccf7e41950d43d19dc89101729dc
+Description: debug symbols for yangdump
+Build-Ids: 0fcd3beb9f3435ff87b1df61f536c3060ef3697d
+

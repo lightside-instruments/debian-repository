@@ -1,0 +1,8 @@
+Origin: lsi
+Label: lsi
+Codename: bullseye
+Suite: stable
+Architectures: source amd64 armhf
+Components: main
+Description: Apt repository for lsi packages
+SignWith: 8D0C9900

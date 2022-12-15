@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: lsi
+Label: lsi
+Architecture: armhf
+Description: Apt repository for lsi packages
