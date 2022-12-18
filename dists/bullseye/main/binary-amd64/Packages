@@ -406,6 +406,53 @@ MD5sum: 3898b8675fe7f4592979afad44c964a1
 Description: debug symbols for netconfd-module-ietf-traffic-generator
 Build-Ids: 372746beede8c33e9e602205c76b4d00a2bc3b7b
 
+Package: netconfd-openssh-server-service
+Source: yuma123-systemd-services
+Version: 2.13-0
+Architecture: all
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 22
+Depends: openssh-server, netconfd-service
+Provides: netconfd-ssh-service
+Multi-Arch: foreign
+Homepage: http://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-systemd-services/netconfd-openssh-server-service_2.13-0_all.deb
+Size: 3580
+SHA256: 6e35772a1493affe31677c4cdb7ba0055ed76e037c5742deab7bec863ee1f880
+SHA1: 8ae24c9f5d7053daca8fe54029dba47db4cb5c72
+MD5sum: 76b97187e3d32a157f0fc1c957367e98
+Description: Init scripts and systemd service definitions
+ for starting openssh-server sshd instance listening
+ on the NETCONF port 830 with only the netconf subsystem
+ enabled.
+ .
+ Edit the /etc/netconfd/ssh/sshd_config to modify the
+ configuration.
+
+Package: netconfd-service
+Source: yuma123-systemd-services
+Version: 2.13-0
+Architecture: all
+Maintainer: Vladimir Vassilev <vladimir@lightside-instruments.com>
+Installed-Size: 21
+Multi-Arch: foreign
+Homepage: http://yuma123.org
+Priority: optional
+Section: net
+Filename: pool/main/y/yuma123-systemd-services/netconfd-service_2.13-0_all.deb
+Size: 3452
+SHA256: f77be428e9a95e6d0ab5e91ea3b88b48c15c7f7f1e2b30602b025d34813155c6
+SHA1: 48ae1468cb9ca2fc618595e1655eb14cf1ed9500
+MD5sum: f11ab3ecdd2d31c9a848d9bd79beef98
+Description: Init scripts and systemd service definitions
+ for starting netconfd listening on /tmp/ncxserver.sock
+ .
+ SSH and TLS services with compatible NETCONF subsystems can
+ be installed to enable incomming sessions to be forwarded to
+ /tmp/ncxserver.sock
+
 Package: python3-litenc
 Source: litenc
 Version: 1.7-0
